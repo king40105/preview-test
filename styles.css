@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  body {
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 2rem;
+  }
+  .property-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  .property-image {
+    flex: 1 1 400px;
+  }
+  .property-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .property-info {
+    flex: 2 1 500px;
+  }
+  .address {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  .offers {
+    color: #00a478;
+    margin-bottom: 1rem;
+  }
+  .features {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    color: #555;
+  }
+  .description h2 {
+    margin-top: 0;
+  }
+  .stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 1rem 0;
+  }
+  .stat {
+    display: flex;
+    flex-direction: column;
+  }
+  .stat span:first-child {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .potential-value {
+    margin-top: 1rem;
+  }
+  .potential-value .confidence {
+    background: #e6f4ea;
+    color: #00a478;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+  }
+  .value-range {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .purchase-button {
+    margin-top: 2rem;
+    background-color: #28c086;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
