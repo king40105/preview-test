@@ -30,10 +30,6 @@
     font-size: 1.25rem;
     font-weight: 600;
   }
-  .offers {
-    color: #00a478;
-    margin-bottom: 1rem;
-  }
   .features {
     display: flex;
     gap: 1rem;
@@ -58,24 +54,8 @@
     font-weight: 600;
     font-size: 1rem;
   }
-  .potential-value {
-    margin-top: 1rem;
-  }
-  .potential-value .confidence {
-    background: #e6f4ea;
-    color: #00a478;
-    padding: 0.25rem 0.5rem;
-    border-radius: 4px;
-    font-size: 0.875rem;
-  }
-  .value-range {
-    display: flex;
-    gap: 1rem;
-    margin-top: 0.5rem;
-    flex-wrap: wrap;
-  }
   .purchase-button {
-    margin-top: 2rem;
+    margin-top: 1rem;
     background-color: #28c086;
     color: white;
     border: none;
